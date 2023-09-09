@@ -47,7 +47,7 @@ Where:
 - \( e_lat \) is the lateral error,
 - \( d(e_lat)/dt \) is the rate of change of the lateral error.
 
-This formula's inclusion saw a significant uptick in the car's performance, primarily regarding stability during racing line adjustments. The visual comparison of these adjustments is documented in this [video](#https://www.youtube.com/watch?v=iy26FNFZgEw).
+This formula's inclusion saw a significant uptick in the car's performance, primarily regarding stability during racing line adjustments. The visual comparison of these adjustments is documented in this [video](https://www.youtube.com/watch?v=iy26FNFZgEw).
 
 ![image](https://github.com/Saibernard/Lateral-Control-for-Defensive-Driving-in-Autonomous-Race-Cars/assets/112599512/002dcfc2-574b-4281-9be7-808308845f40)
 
@@ -56,7 +56,7 @@ This formula's inclusion saw a significant uptick in the car's performance, prim
 
 ### 3.1 Implementation on F1TENTH Car
 
-We transitioned to real-world testing by integrating the algorithm into an F1TENTH car. Distinct differences in performance were evident, especially at lower speeds. For a detailed comparative view, refer to this [video](#https://www.youtube.com/watch?v=xJaZCDzaTfY)
+We transitioned to real-world testing by integrating the algorithm into an F1TENTH car. Distinct differences in performance were evident, especially at lower speeds. For a detailed comparative view, refer to this [video](https://www.youtube.com/watch?v=xJaZCDzaTfY)
 
 ### April tag detection from the Real sense camera
 
@@ -65,7 +65,7 @@ We transitioned to real-world testing by integrating the algorithm into an F1TEN
 
 ### 3.2 Defensive Maneuvering
 
-After establishing the algorithm's efficacy, higher speeds were introduced. Our control system, paired with an onboard camera, detected competitors and replicated defensive racing line changes. Depending on the adversary's speed, the changes varied from short, rapid ones to lengthier, deliberate shifts. Observations from these tests are available [here](#test-link).
+After establishing the algorithm's efficacy, higher speeds were introduced. Our control system, paired with an onboard camera, detected competitors and replicated defensive racing line changes. Depending on the adversary's speed, the changes varied from short, rapid ones to lengthier, deliberate shifts. Observations from these tests are available [here](https://www.youtube.com/watch?v=xJaZCDzaTfY).
 
 ### 3.3 Racing Environment Simulation
 
