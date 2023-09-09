@@ -7,6 +7,11 @@ Implemented Python and ROS2-based lateral controller for defensive racing in a F
 
 In the domain of autonomous vehicles, motorsport has undergone a transformative merger of technology, focusing on safer racing experiences. This report emphasizes the development and subsequent testing of a lateral control algorithm to enhance defensive driving in autonomous race cars.
 
+### Car setup with stereo camera at the back to detect opponent cars
+
+![image](https://github.com/Saibernard/Lateral-Control-for-Defensive-Driving-in-Autonomous-Race-Cars/assets/112599512/42e4432b-f6b4-4373-84c2-74bbaa56c9fa)
+
+
 ## 2. Algorithm and Implementation
 
 ### 2.1 Source Code
@@ -26,6 +31,9 @@ Where:
 
 Initial simulations showed substantial yaw rate fluctuations during high-speed changes, primarily due to omitting lateral acceleration considerations.
 
+![image](https://github.com/Saibernard/Lateral-Control-for-Defensive-Driving-in-Autonomous-Race-Cars/assets/112599512/31da18d3-71f4-4d72-b8c4-40af8b43b30f)
+
+
 ### 2.3 Introduction of Lateral Control
 
 The foundation of our lateral control algorithm is the formula:
@@ -41,11 +49,19 @@ Where:
 
 This formula's inclusion saw a significant uptick in the car's performance, primarily regarding stability during racing line adjustments. The visual comparison of these adjustments is documented in this [video](#video-link).
 
+![image](https://github.com/Saibernard/Lateral-Control-for-Defensive-Driving-in-Autonomous-Race-Cars/assets/112599512/002dcfc2-574b-4281-9be7-808308845f40)
+
+
 ## 3. Physical Model Testing and Results
 
 ### 3.1 Implementation on F1TENTH Car
 
 We transitioned to real-world testing by integrating the algorithm into an F1TENTH car. Distinct differences in performance were evident, especially at lower speeds. For a detailed comparative view, refer to this [video](#video-link).
+
+### April tag detection from the Real sense camera
+
+![image](https://github.com/Saibernard/Lateral-Control-for-Defensive-Driving-in-Autonomous-Race-Cars/assets/112599512/610828c5-241c-4433-b136-b86439358cd0)
+
 
 ### 3.2 Defensive Maneuvering
 
@@ -62,6 +78,11 @@ Race simulations were conducted in RViz, with lap times presented in the table b
 | Speed difference to opponent                  | -1 m/s     |
 | Opponent lap time (with increased speed)      | 6.1 s      |
 | Opponent lap time (against ego car defending) | 6.5 s      |
+
+### Results showing the stability of the car during defensive manuever
+
+![image](https://github.com/Saibernard/Lateral-Control-for-Defensive-Driving-in-Autonomous-Race-Cars/assets/112599512/62299d08-25af-49c3-b6d4-545cbd271838)
+
 
 ## 4. Conclusions and Future Work
 
