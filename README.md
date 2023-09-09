@@ -16,7 +16,7 @@ In the domain of autonomous vehicles, motorsport has undergone a transformative 
 
 ### 2.1 Source Code
 
-The entirety of the project's source code can be explored on our [Github repository](#link-to-repo).
+The entirety of the project's source code can be explored on our [Github repository](#https://github.com/Saibernard/Lateral-Control-for-Defensive-Driving-in-Autonomous-Race-Cars).
 
 ### 2.2 Initial Testing and Observations
 
@@ -47,7 +47,7 @@ Where:
 - \( e_lat \) is the lateral error,
 - \( d(e_lat)/dt \) is the rate of change of the lateral error.
 
-This formula's inclusion saw a significant uptick in the car's performance, primarily regarding stability during racing line adjustments. The visual comparison of these adjustments is documented in this [video](#video-link).
+This formula's inclusion saw a significant uptick in the car's performance, primarily regarding stability during racing line adjustments. The visual comparison of these adjustments is documented in this [video](#https://www.youtube.com/watch?v=iy26FNFZgEw).
 
 ![image](https://github.com/Saibernard/Lateral-Control-for-Defensive-Driving-in-Autonomous-Race-Cars/assets/112599512/002dcfc2-574b-4281-9be7-808308845f40)
 
@@ -56,7 +56,7 @@ This formula's inclusion saw a significant uptick in the car's performance, prim
 
 ### 3.1 Implementation on F1TENTH Car
 
-We transitioned to real-world testing by integrating the algorithm into an F1TENTH car. Distinct differences in performance were evident, especially at lower speeds. For a detailed comparative view, refer to this [video](#video-link).
+We transitioned to real-world testing by integrating the algorithm into an F1TENTH car. Distinct differences in performance were evident, especially at lower speeds. For a detailed comparative view, refer to this [video](#https://www.youtube.com/watch?v=xJaZCDzaTfY)
 
 ### April tag detection from the Real sense camera
 
