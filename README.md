@@ -16,7 +16,7 @@ In the domain of autonomous vehicles, motorsport has undergone a transformative 
 
 ### 2.1 Source Code
 
-The entirety of the project's source code can be explored on our [Github repository](#https://github.com/Saibernard/Lateral-Control-for-Defensive-Driving-in-Autonomous-Race-Cars).
+The entirety of the project's source code can be explored on our [Github repository](https://github.com/Saibernard/Lateral-Control-for-Defensive-Driving-in-Autonomous-Race-Cars).
 
 ### 2.2 Initial Testing and Observations
 
